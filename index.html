@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Birthday 21st</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+  <script src="jquery.js"></script>
+</head>
+<body style="background-image:url('./images/background.jpg'); background-repeat: no-repeat; overflow-x: hidden;">
+  <div class="body">
+    <div class="button">
+      <button class="btn btn-primary" style="width: 90px; height: 50px; box-shadow: 0px 1px 1px white;" onclick="play()">
+        <h4>
+          <i class="bi bi-gift" style="line-height: 35px;"></i>
+        </h4>
+      </button>
+      <p style="text-align: center; justify-content: center; color: white; position: absolute; margin-left: -7rem; margin-top: 5rem;">* Pake earphone or headset yaa</p>
+      <p style="text-align: center; justify-content: center; color: white; position: absolute; margin-left: -7rem; margin-top: 7rem;">* Naikin volumenya</p>
+    </div>
+    <div class="birthdayCard">
+      <div class="cardFront">
+      </div>
+      <div class="cardInside" style="font-size: 12px !important;">
+        <div class="balloons">
+          <div class="balloonOne"></div>
+          <div class="balloonTwo"></div>
+          <div class="balloonThree"></div>
+          <div class="balloonFour"></div>
+        </div>
+        <p class="mt-2">10 May 2024 | Dear Bee ❤,</p>
+        <p>Happy Birthday yaa seng, Hari ini adalah tentangmu, tentang kita, tentang cinta yang tak terbatas dan tawa yang mengalir beriringan dengan hati.</p>
+          <p>Dalam setiap langkah usiamu yang baru, aku berharap untuk menjadi bagian dari perjalananmu. Aku di sini, selalu, untuk menemanimu dalam segala hal. Jika bahagia adalah tujuanmu, izinkan aku menjadi pemandumu. Izinkan aku tahu setiap langkahmu, dan setiap rahasia yang tersimpan dalam hatimu.
+          </p>
+          <p>
+            Jatuh cinta padamu bukanlah kebetulan, suatu perjalanan tak terduga menuju keindahan yang lebih dari yang pernah aku bayangkan. Dalam setiap detik yang kita lewati bersama.
+          </p>
+          <p style="margin: 0;">
+            <img src="./images/1.jpg" style="border-radius: 0 0 15px 15px;" id="looping-image">
+          </p>
+      </div>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $('.birthdayCard').css('display', 'none');
+      $('.canvas').css('display', 'none');
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+</body>
+</html>
